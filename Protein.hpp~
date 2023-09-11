@@ -1,0 +1,32 @@
+//-*- mode: linum; mode: c++ -*-
+/**
+ *  CSE 100 PA4 C++ Graph
+ *  A class representing a protein sequence 
+ *  Authors: 
+ *   Shih-Ting Huang    A92091070
+ *   Crystina Callahan  A13070475
+ */
+
+#include <iostream>
+#include <string>
+#include <unordered_map>
+
+using namespace std;
+class Protein{
+ public:
+
+  //Functions:
+  Protein(string name, string sequence);
+  ~Protein();
+
+  //Variables:
+  int size;
+  unordered_map<string,Trait*> Traits;
+  string name;
+  
+ private:
+  string sequence;
+}
+
+  void Protein(string name, string sequence){
+  }

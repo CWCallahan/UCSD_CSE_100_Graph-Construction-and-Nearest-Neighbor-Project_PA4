@@ -1,0 +1,29 @@
+//-*- mode: linum; mode: c++ -*-
+/**
+ *  CSE 100 PA4 C++ Graph
+ *  A class representing a protein sequence 
+ *  Authors: 
+ *   Shih-Ting Huang    A92091070
+ *   Crystina Callahan  A13070475
+ */
+
+#include <iostream>
+#include <string>
+#include <vector>
+class    Protein;
+#include "Protein.hpp"
+using namespace std;
+
+class Trait{
+public:
+  //functions:
+  trait(string name, int value);
+  ~trait();
+  void makeHistogram();
+
+  //variables:
+  vector<Protein*> Proteins;
+  
+private:
+}
+  
