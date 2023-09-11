@@ -1,0 +1,2 @@
+# UCSD_CSE_100_Graph-Construction-and-Nearest-Neighbor-Project_PA4
+This Project was an assignment to create a searchible graph structure then to implement a nearest neighbor search in C++, Most of the code is the combined effort of me and a lab partner however some was provided by instructors as a starting point from instructors. We ended up implementing an extension to make a protein classification tool.
